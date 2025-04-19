@@ -19,8 +19,8 @@ Target Variable: Yield(tons)
 
 ### Key Features:
 
-- Crop_Type ,Irrigation_Type, Soil_Type, Season
-  - Farm_Area(acres), Fertilizer_Used(tons), Pesticide_Used(kg), Water_Usage(cubic meters)
+- Crop_Type ,Irrigation_Type, Soil_Type, Season,
+   Farm_Area(acres), Fertilizer_Used(tons), Pesticide_Used(kg), Water_Usage(cubic meters)
 
 ---
 
@@ -51,7 +51,7 @@ Target Variable: Yield(tons)
 - **Mean Absolute Error (MAE)**
 - **Root Mean Squared Error (RMSE)**
 
-``text
+
 Linear Regression    - MAE: 10.63, RMSE: 12.63
 Random Forest        - MAE: 11.05, RMSE: 13.51
 Gradient Boosting    - MAE: 13.83, RMSE: 16.12
