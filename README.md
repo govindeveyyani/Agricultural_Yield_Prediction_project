@@ -7,8 +7,8 @@ This project leverages machine learning techniques to predict agricultural crop 
 - 📊 Data preprocessing with outlier handling, encoding, and scaling
 - 🧠 Model training using Linear Regression, Random Forest, and Gradient Boosting
 - ✅ Final model selected: **Linear Regression** (best MAE & RMSE)
-- 💾 Model and preprocessing tools saved using `pickle`
-- 🌐 Interactive **Streamlit** web app for real-time predictions
+- 💾 Model and preprocessing tools saved using pickle
+- 🌐 Interactive Streamlit  web app for real-time predictions
 
 ---
 
@@ -19,17 +19,17 @@ Target Variable: Yield(tons)
 
 ### Key Features:
 
-- Crop_Type`, `Irrigation_Type`, `Soil_Type`, `Season`
-  - 'Farm_Area(acres)`, `Fertilizer_Used(tons)`, `Pesticide_Used(kg)`, `Water_Usage(cubic meters)`
+- Crop_Type ,Irrigation_Type, Soil_Type, Season
+  - Farm_Area(acres), Fertilizer_Used(tons), Pesticide_Used(kg), Water_Usage(cubic meters)
 
 ---
 
 ## 🧪 EDA & Preprocessing
 
-- **Missing values:** Checked and handled
-- **Outliers:** Capped using IQR method
-- **Categorical Encoding:** Label Encoding for categorical variables
-- **Scaling:** StandardScaler for numeric columns
+- **Missing values: Checked and handled
+- **Outliers: Capped using IQR method
+- **Categorical Encoding: Label Encoding for categorical variables
+- **Scaling: StandardScaler for numeric columns
 
 ### Exploratory Visuals:
 
